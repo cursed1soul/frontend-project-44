@@ -10,9 +10,11 @@
   "license": "ISC",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "games/brain-even"
   },
   "dependencies": {
+    "eslint": "^9.2.0",
     "readline-sync": "^1.4.10"
   }
 }
